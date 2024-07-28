@@ -1,0 +1,33 @@
+
+.about-content{
+    width: 100%;
+}
+.about-item-content{
+    width: 100%;
+}
+.about-item{
+    width: 30%;
+    border: 1px solid rgb(211, 208, 208);
+    height: 35%;
+}
+.about-item .icon{
+    padding: 20px;
+    font-size: 35px;
+    color: var(--background-color);
+}
+.about-item-title{
+    padding: 5px;
+    font-family: inherit;
+    transition: color 0.5s;
+}
+.about-item-desc{
+    line-height: 25px;
+    font-family: inherit;
+    padding: 10px;
+}
+.about-item-link{
+    color: var(--background-color);
+}
+.about-item:hover .about-item-title{
+    color: white;
+}

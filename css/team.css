@@ -1,0 +1,40 @@
+.team{
+    position: relative;
+    background-image: url(../images/background3.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 70%;
+}
+.team-content{
+width: 90%;
+height: 70%;
+padding: 120px 60px;
+margin: auto;
+}
+.team-item{
+    width: 50%;
+    color: var(--font-color);
+}
+.item-upper{
+    position: relative;
+    padding: 20px 2px 50px 100px ;
+}
+.item-upper img{
+    width: 15%;
+    position: absolute;
+    top: 10;
+    left: 0;
+    border-radius: 50%;
+}
+.item-upper-title{
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+.item-upper-desc{
+    font-size: 17px;
+    color: var(--font-color);
+}
+.team-item-desc{
+    font-size: 15px;
+}

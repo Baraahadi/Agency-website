@@ -1,0 +1,45 @@
+:root{
+    --background-color: #6195ff;
+    --font-color:#fff;
+    --background-container-color:#f8f8f8;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Varela Round  ;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.header-section{
+     text-transform: capitalize;
+     font-size: 25;
+     font-family: inherit;
+     text-align: center;
+}
+.header-section .line{
+    width: 34px;
+    height: 4px;
+    background-color:var(--background-color);
+    margin: auto;
+    margin-top: 10px;
+}
+button{
+    font-family: inherit  ;
+}
+.pad-y{
+    padding: 120px;
+}
+.hover-opacity:hover{
+    opacity: 0.8;
+}
+.hover-opacity{
+    transition: opacity .5s;
+}
+.mg{
+    margin:0  5%;
+}

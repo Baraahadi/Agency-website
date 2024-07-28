@@ -1,0 +1,39 @@
+.float-element{
+    float: left;
+}
+.list-style{
+    list-style: none;
+}
+.display{
+    display: block;
+}
+.display-list{
+    display: inline-block;
+}
+.a-decoration{
+text-decoration: none;
+}
+.text-position{
+    text-align: center;
+}
+.text-left{
+    text-align: left;
+}
+.text-capital{
+    text-transform: capitalize;
+}
+.text-upper{
+    text-transform: uppercase;
+}
+.line-height{
+    line-height: 1.5;
+}
+.over-flow{
+    overflow: hidden;
+}
+.width{
+    width: 100%;
+}
+.paddingx-y{
+    padding: 60px 0;
+}

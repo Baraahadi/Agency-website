@@ -1,0 +1,26 @@
+.statistic{
+    width:100%;
+    height: 50%;
+    background-image: url(../images/background2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+.statistic-container{
+    padding: 100px;
+}
+.statistic-item{
+    width: 25%;
+    height: 50%;
+    padding: 30px 0; 
+}
+.statistic-item .icon{
+    color: var(--background-color);
+}
+.statistic-item-title{
+    color: var(--font-color);
+    padding: 12px 0;
+}
+.statistic-item-text{
+    color: var(--font-color);
+}

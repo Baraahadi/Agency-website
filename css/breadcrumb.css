@@ -1,0 +1,24 @@
+.breadscrumb{
+    background-color: var(--background-container-color);
+    height: 20%;
+    margin: auto;
+    text-align: left;
+    padding: 50px 20px;
+}
+.breadscrumb-list{ 
+    float: right; 
+}
+.breadscrumb-list li a.active{
+    color: #565656;
+}
+.breadscrumb li{
+    display: inline-block;
+}
+.breadscrumb li a{
+color: var(--background-color);
+    margin: 0 2px;
+}
+.breadcrumb-title{
+    font-size: 60x;
+    color:black;
+}

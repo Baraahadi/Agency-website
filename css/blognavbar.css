@@ -1,0 +1,26 @@
+.blog{
+    height: 10%;
+    background-color: var(--font-color);
+}
+.blog-header{
+   padding: 10px 0;
+}
+.logoimage{
+    width: 40%;
+}
+.logoimage img{
+    width: 20%;
+}
+.blog-nav{
+    width: 60%;
+    float: right;
+    text-align: right;
+    padding: 15px 0;
+}
+.blog-nav .blog-list li{
+    display: inline-block;
+}
+.blog-nav .blog-list li a{
+    color: black;
+    margin: 0 10px;
+}

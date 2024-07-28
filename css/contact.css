@@ -1,0 +1,60 @@
+.contact-content{
+    padding: 120px;
+    height: 100%;
+}
+.contact-item{
+width: 30%;
+}
+.contact-item i {
+    color: var(--background-color);
+}
+.contact-item-title{
+    margin: 12px 0;
+}
+.contact-item-text{
+    color: #8d8989;
+    font-size: 14px;
+}
+.contact-form{
+    width: 100%;
+    margin: 50px auto;
+}
+.form-item{
+    width: 100%;
+}
+.contact-form .form-name{
+    margin-right: 16px;
+    padding-left: 10px;
+}
+.contact-form .form-email{
+    margin-left: 16px;
+    padding-left: 10px;
+}
+.contact-form .form-name , .form-email{
+    width: 34%;
+    height: 30px;
+    margin: 10px 0;
+    background-color: var(--background-container-color);
+    border:1px solid transparent;
+    }
+.contact-form .form-mess , .form-sub{
+    width: 70%;
+    height: 30px;
+    margin: 8px 0;
+    background-color: var(--background-container-color);
+    border:1px solid transparent;
+    padding-left: 10px;
+}
+.contact-form .form-mess{
+    height: 80px;
+    font-family: inherit;
+}
+.contact-form  .form-btn{
+    margin: 25px auto;
+    width: 15%;
+    height: 35px;
+    background-color: var(--background-color);
+    color: var(--font-color);
+    border:1px solid transparent;
+    cursor: pointer;
+}

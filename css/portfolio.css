@@ -1,0 +1,51 @@
+.layer{
+    position: relative;
+}
+.layer:after{
+       content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        width: 0%;
+        background-color:#333;
+        z-index: -1;
+        transition: width 0.5s;
+}
+.layer:hover:after{ 
+width: 100%;
+}
+
+.portfolio-content{
+    width: 100%;
+    position: relative;
+}
+.portfolio-content-item{
+    position: absolute;
+    width: 30%;
+    padding:15px;
+    transition: width 0.5s;
+}
+img{
+    width: 100%;
+    position: relative;
+}
+.layer-effect{
+    position: relative;
+    text-align: center;
+}
+.layer-effect:after{
+    content: "";
+    position: absolute;
+    width: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: -1;
+}
+.layer-effect:hover:after{
+    width: 100%;
+}
